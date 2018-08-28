@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TOC.DataSets.Parser.Impl
 {
-    class JsonParser : IJsonParser
+    public class JsonParser : IJsonParser
     {
         public dynamic Parse(string json)
         {

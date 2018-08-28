@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TOC.Client.Impl
 {
-    class TocDataClient : ITocDataClient
+    public class TocDataClient : ITocDataClient
     {
         public string GetOdakyuFare(string accessToken)
         {

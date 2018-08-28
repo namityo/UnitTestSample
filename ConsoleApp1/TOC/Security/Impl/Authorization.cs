@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TOC.Security.Impl
 {
-    class Authorization : IAuthorization
+    public class Authorization : IAuthorization
     {
         public string GetAccessToken()
         {
